@@ -2,17 +2,53 @@
 <h3 align="center">A passionate Full-stack developer from India</h3>
 <img align="right"alt="coding"width="400"src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=aditya121raj&label=Profile%20views&color=0e75b6&style=flat" alt="aditya121raj" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=aditya121raj&label=Profile%20views&color=0e75b6&style=flat" alt="aditya121raj" /> </p> 
 
-- 🔭 I’m Studying computer science [Galgotias university](https://www.galgotiasuniversity.edu.in/)
+🚀 **Software Engineer | Full-Stack Developer | Problem Solver**  
 
-- 🌱 I’m currently learning **AWS, Apache and NGINX.**
+I am a driven Computer Science student at **Galgotias University**, passionate about building impactful solutions in **Web Development, Machine Learning, and Data Structures & Algorithms**.  
 
-- 💬 Ask me about **java,python,DSA**
+---
 
-- 📫 How to reach me **adiraj1603@gmail.com**
+## 🔧 Tech Stack  
+- **Languages:** C++, Java, JavaScript, SQL, HTML/CSS  
+- **Frameworks:** React.js, Node.js, Express.js, Tailwind CSS  
+- **Databases:** MySQL, MongoDB  
+- **Tools:** Git, GitHub, VS Code  
 
-- ⚡ Fun fact **Passionate about stocks and unlocking financial potential.**
+---
+
+## 📌 Projects  
+- **Resume Analysis (ML):** Built a classification system (98.44% accuracy) using **TF-IDF + KNN**, deployed with **Streamlit**.  
+- **BookHaven (Full-Stack):** Online bookstore with **React, Node.js, Express, MongoDB** featuring authentication, premium access, and smooth UI.  
+
+---
+
+## 🏆 Achievements  
+- Solved **300+ coding problems** on LeetCode, HackerRank & GeeksforGeeks.  
+- **1500+ rating** on LeetCode.  
+- **Intermediate MySQL Certificate** (HackerRank).  
+- Participated in **NASA Space Apps Hackathon 2022**.  
+
+---
+
+## 🌱 Currently Exploring  
+- Cloud & DevOps: **AWS, Apache, NGINX**  
+- Advanced problem solving & scalable system design  
+
+---
+
+## 📫 Connect with Me  
+- Email: **adiraj1603@gmail.com**  
+- [LinkedIn](https://in.linkedin.com/in/aditya-raj-570b511a4)  
+- [GitHub](https://github.com/Aditya121raj)  
+- [LeetCode](https://leetcode.com/u/Aditya121raj/)  
+- [Portfolio](https://website-five-beryl-39.vercel.app/)  
+
+---
+
+⚡ **Fun fact:** I’m equally passionate about **tech innovation** and exploring the world of **finance & stocks**.  
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
