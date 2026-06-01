@@ -1,111 +1,224 @@
-<h1 align="center">Hi 👋, I'm Aditya Raj</h1>
-<h3 align="center">A passionate Full-stack developer from India</h3>
-<img align="right"alt="coding"width="400"src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aditya Raj — Full-Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --accent: #1D9E75;
+    --accent-light: #E1F5EE;
+    --accent-dark: #085041;
+    --bg: #ffffff;
+    --bg2: #f7f7f5;
+    --bg3: #f1efe8;
+    --t1: #1a1a18;
+    --t2: #5f5e5a;
+    --t3: #888780;
+    --b: rgba(0,0,0,0.1);
+    --b2: rgba(0,0,0,0.2);
+    --radius-md: 8px;
+    --radius-lg: 12px;
+  }
+  body { font-family: 'Outfit', sans-serif; color: var(--t1); background: #fafaf8; min-height: 100vh; }
+  .page { max-width: 760px; margin: 0 auto; padding: 3rem 2rem 5rem; }
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=aditya121raj&label=Profile%20views&color=0e75b6&style=flat" alt="aditya121raj" /> </p> 
+  .hero { padding: 2.5rem 0 2rem; border-bottom: 0.5px solid var(--b); }
+  .hero-tag { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.75rem; }
+  .hero-name { font-family: 'DM Serif Display', serif; font-size: 52px; line-height: 1.05; color: var(--t1); margin-bottom: 0.5rem; }
+  .hero-name em { font-style: italic; color: var(--accent); }
+  .hero-title { font-size: 15px; color: var(--t2); font-weight: 300; margin-bottom: 1.25rem; }
+  .hero-links { display: flex; gap: 10px; flex-wrap: wrap; }
+  .pill { display: inline-flex; align-items: center; gap: 5px; padding: 5px 12px; border: 0.5px solid var(--b2); border-radius: 20px; font-size: 12px; font-family: 'DM Mono', monospace; color: var(--t2); text-decoration: none; transition: all 0.15s; }
+  .pill:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-light); }
+  .pill i { font-size: 13px; }
 
-🚀 **Software Engineer | Full-Stack Developer | Problem Solver**  
+  .stats-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 1.75rem 0; }
+  .stat { background: var(--bg2); border-radius: var(--radius-md); padding: 1rem; text-align: center; }
+  .stat-n { font-family: 'DM Serif Display', serif; font-size: 28px; color: var(--accent); display: block; }
+  .stat-l { font-size: 11px; color: var(--t2); font-family: 'DM Mono', monospace; letter-spacing: 0.05em; text-transform: uppercase; margin-top: 2px; display: block; }
 
-I am a driven Computer Science student at **Galgotias University**, passionate about building impactful solutions in **Web Development, Machine Learning, and Data Structures & Algorithms**.  
+  section { padding: 1.75rem 0; border-bottom: 0.5px solid var(--b); }
+  section:last-child { border-bottom: none; }
+  .sec-hd { display: flex; align-items: center; gap: 8px; margin-bottom: 1.25rem; }
+  .sec-hd-label { font-family: 'DM Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--t3); }
+  .sec-hd-line { flex: 1; height: 0.5px; background: var(--b); }
 
----
+  .exp-card { background: var(--bg); border: 0.5px solid var(--b); border-radius: var(--radius-lg); padding: 1.25rem; margin-bottom: 10px; border-left: 2.5px solid var(--accent); }
+  .exp-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px; flex-wrap: wrap; gap: 6px; }
+  .exp-role { font-size: 15px; font-weight: 500; }
+  .exp-co { font-size: 13px; color: var(--accent); font-family: 'DM Mono', monospace; }
+  .exp-date { font-size: 11px; color: var(--t3); font-family: 'DM Mono', monospace; background: var(--bg2); padding: 3px 8px; border-radius: 10px; white-space: nowrap; }
+  .exp-tags { display: flex; flex-wrap: wrap; gap: 5px; margin: 8px 0; }
+  .tag { font-size: 11px; font-family: 'DM Mono', monospace; padding: 2px 8px; border-radius: 4px; background: var(--accent-light); color: var(--accent-dark); }
+  .exp-bullets { list-style: none; margin-top: 8px; }
+  .exp-bullets li { font-size: 13px; color: var(--t2); padding: 3px 0 3px 14px; position: relative; line-height: 1.5; }
+  .exp-bullets li::before { content: '→'; position: absolute; left: 0; color: var(--accent); font-size: 11px; top: 5px; }
 
-## 🔧 Tech Stack  
-- **Languages:** C++, Java, JavaScript, SQL, HTML/CSS  
-- **Frameworks:** React.js, Node.js, Express.js, Tailwind CSS  
-- **Databases:** MySQL, MongoDB  
-- **Tools:** Git, GitHub, VS Code  
+  .proj-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .proj-card { background: var(--bg); border: 0.5px solid var(--b); border-radius: var(--radius-lg); padding: 1.25rem; display: flex; flex-direction: column; gap: 8px; transition: border-color 0.15s; }
+  .proj-card:hover { border-color: var(--accent); }
+  .proj-icon { width: 36px; height: 36px; border-radius: 8px; background: var(--accent-light); display: flex; align-items: center; justify-content: center; }
+  .proj-icon i { font-size: 18px; color: var(--accent); }
+  .proj-name { font-size: 14px; font-weight: 500; }
+  .proj-desc { font-size: 12px; color: var(--t2); line-height: 1.5; flex: 1; }
+  .proj-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 4px; }
+  .proj-stat { font-size: 11px; font-family: 'DM Mono', monospace; color: var(--accent); }
 
----
+  .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .skill-group { background: var(--bg2); border-radius: var(--radius-md); padding: 1rem; }
+  .skill-group-name { font-size: 11px; font-family: 'DM Mono', monospace; text-transform: uppercase; letter-spacing: 0.1em; color: var(--t3); margin-bottom: 8px; }
+  .skill-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+  .chip { font-size: 11px; padding: 3px 8px; border-radius: 4px; background: var(--bg); border: 0.5px solid var(--b); color: var(--t2); font-family: 'DM Mono', monospace; }
 
-## 📌 Projects  
-- **Resume Analysis (ML):** Built a classification system (98.44% accuracy) using **TF-IDF + KNN**, deployed with **Streamlit**.  
-- **BookHaven (Full-Stack):** Online bookstore with **React, Node.js, Express, MongoDB** featuring authentication, premium access, and smooth UI.  
+  .ach-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 4px; }
+  .ach-card { background: var(--bg2); border-radius: var(--radius-md); padding: 0.75rem 1rem; flex: 1; min-width: 140px; display: flex; align-items: center; gap: 10px; }
+  .ach-icon { font-size: 20px; color: var(--accent); }
+  .ach-text { font-size: 12px; color: var(--t2); line-height: 1.4; }
+  .ach-text strong { display: block; font-size: 13px; color: var(--t1); font-weight: 500; margin-bottom: 2px; }
 
----
+  .edu-row { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 6px; }
+  .edu-deg { font-size: 15px; font-weight: 500; }
+  .edu-uni { font-size: 13px; color: var(--t2); margin-top: 3px; }
+  .edu-cw { margin-top: 8px; font-size: 12px; color: var(--t3); font-family: 'DM Mono', monospace; line-height: 1.6; }
 
-## 🏆 Achievements  
-- Solved **300+ coding problems** on LeetCode, HackerRank & GeeksforGeeks.  
-- **1500+ rating** on LeetCode.  
-- **Intermediate MySQL Certificate** (HackerRank).  
-- Participated in **NASA Space Apps Hackathon 2022**.  
+  @media (max-width: 600px) {
+    .hero-name { font-size: 36px; }
+    .stats-row { grid-template-columns: 1fr 1fr; }
+    .proj-grid { grid-template-columns: 1fr; }
+    .skills-grid { grid-template-columns: 1fr; }
+    .ach-row { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
 
----
+  <div class="hero">
+    <div class="hero-tag">Full-Stack Developer</div>
+    <div class="hero-name">Aditya <em>Raj</em></div>
+    <div class="hero-title">AI-powered & real-time systems · React · Next.js · Node.js · Delhi, India</div>
+    <div class="hero-links">
+      <a class="pill" href="mailto:adiraj1706@gmail.com"><i class="ti ti-mail"></i>adiraj1706@gmail.com</a>
+      <a class="pill" href="https://github.com/Aditya121raj" target="_blank"><i class="ti ti-brand-github"></i>GitHub</a>
+      <a class="pill" href="https://linkedin.com" target="_blank"><i class="ti ti-brand-linkedin"></i>LinkedIn</a>
+      <a class="pill" href="https://leetcode.com" target="_blank"><i class="ti ti-code"></i>LeetCode</a>
+      <a class="pill" href="#"><i class="ti ti-world"></i>Portfolio</a>
+    </div>
+    <div class="stats-row">
+      <div class="stat"><span class="stat-n">27K+</span><span class="stat-l">Users Served</span></div>
+      <div class="stat"><span class="stat-n">799K+</span><span class="stat-l">Monthly Views</span></div>
+      <div class="stat"><span class="stat-n">300+</span><span class="stat-l">LeetCode Solved</span></div>
+    </div>
+  </div>
 
-## 🌱 Currently Exploring  
-- Cloud & DevOps: **AWS, Apache, NGINX**  
-- Advanced problem solving & scalable system design  
+  <section>
+    <div class="sec-hd"><span class="sec-hd-label">Experience</span><div class="sec-hd-line"></div></div>
+    <div class="exp-card">
+      <div class="exp-top">
+        <div>
+          <div class="exp-role">Frontend Developer Intern</div>
+          <div class="exp-co">Talentd.in</div>
+        </div>
+        <div class="exp-date">Sep 2025 – Mar 2026 · Remote</div>
+      </div>
+      <div class="exp-tags">
+        <span class="tag">Next.js</span><span class="tag">React Native</span><span class="tag">TailwindCSS</span><span class="tag">REST APIs</span><span class="tag">WebSockets</span><span class="tag">Agile/Scrum</span>
+      </div>
+      <ul class="exp-bullets">
+        <li>Shipped production UI features to 27,000+ users with ~15% reduction in post-release issue reports</li>
+        <li>Engineered reusable React/Next.js components, integrated 10+ REST APIs with structured error handling</li>
+        <li>Collaborated in Agile/Scrum with code reviews, feature-based development, and unit testing practices</li>
+      </ul>
+    </div>
+  </section>
 
----
+  <section>
+    <div class="sec-hd"><span class="sec-hd-label">Projects</span><div class="sec-hd-line"></div></div>
+    <div class="proj-grid">
+      <div class="proj-card">
+        <div class="proj-icon"><i class="ti ti-robot"></i></div>
+        <div class="proj-name">ResumeIQ</div>
+        <div class="proj-desc">AI resume classifier using TF-IDF, KNN, and OpenAI API for personalized career insights across 25 job categories</div>
+        <div class="exp-tags" style="margin:0"><span class="tag">Python</span><span class="tag">scikit-learn</span><span class="tag">OpenAI</span></div>
+        <div class="proj-foot">
+          <span class="proj-stat">98.44% accuracy · 1K+ resumes</span>
+          <a href="https://github.com/Aditya121raj/resumeiq" target="_blank" style="color:var(--t3);font-size:13px;"><i class="ti ti-external-link"></i></a>
+        </div>
+      </div>
+      <div class="proj-card">
+        <div class="proj-icon"><i class="ti ti-books"></i></div>
+        <div class="proj-name">BookHaven</div>
+        <div class="proj-desc">Full-stack MERN bookstore with 15+ REST endpoints, JWT auth, RBAC, and fully responsive TailwindCSS UI</div>
+        <div class="exp-tags" style="margin:0"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">MongoDB</span></div>
+        <div class="proj-foot">
+          <span class="proj-stat">Deployed on Vercel + Render</span>
+          <a href="https://github.com/Aditya121raj/bookhaven" target="_blank" style="color:var(--t3);font-size:13px;"><i class="ti ti-external-link"></i></a>
+        </div>
+      </div>
+      <div class="proj-card">
+        <div class="proj-icon"><i class="ti ti-messages"></i></div>
+        <div class="proj-name">QuickChat</div>
+        <div class="proj-desc">AI-powered real-time chat with OpenAI embedded inline via WebSockets — no context switch needed</div>
+        <div class="exp-tags" style="margin:0"><span class="tag">WebSockets</span><span class="tag">OpenAI API</span><span class="tag">JWT</span></div>
+        <div class="proj-foot">
+          <span class="proj-stat">Multi-user · MongoDB sessions</span>
+          <a href="https://github.com/Aditya121raj/quickchat" target="_blank" style="color:var(--t3);font-size:13px;"><i class="ti ti-external-link"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-## 📫 Connect with Me  
-- Email: **adiraj1603@gmail.com**  
-- [LinkedIn](https://in.linkedin.com/in/aditya-raj-570b511a4)  
-- [GitHub](https://github.com/Aditya121raj)  
-- [LeetCode](https://leetcode.com/u/Aditya121raj/)  
-- [Portfolio](https://website-five-beryl-39.vercel.app/)  
+  <section>
+    <div class="sec-hd"><span class="sec-hd-label">Skills</span><div class="sec-hd-line"></div></div>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <div class="skill-group-name">Frontend</div>
+        <div class="skill-chips"><span class="chip">React.js</span><span class="chip">Next.js</span><span class="chip">React Native</span><span class="chip">TailwindCSS</span><span class="chip">Redux</span><span class="chip">ShadCN UI</span></div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-name">Backend</div>
+        <div class="skill-chips"><span class="chip">Node.js</span><span class="chip">Express.js</span><span class="chip">WebSockets</span><span class="chip">JWT Auth</span><span class="chip">REST API</span></div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-name">Database & AI</div>
+        <div class="skill-chips"><span class="chip">MongoDB</span><span class="chip">PostgreSQL</span><span class="chip">Redis</span><span class="chip">OpenAI API</span><span class="chip">scikit-learn</span></div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-name">Languages & Tools</div>
+        <div class="skill-chips"><span class="chip">JavaScript</span><span class="chip">TypeScript</span><span class="chip">Python</span><span class="chip">Docker</span><span class="chip">Git</span><span class="chip">CI/CD</span></div>
+      </div>
+    </div>
+  </section>
 
----
+  <section>
+    <div class="sec-hd"><span class="sec-hd-label">Education</span><div class="sec-hd-line"></div></div>
+    <div class="exp-card">
+      <div class="edu-row">
+        <div>
+          <div class="edu-deg">B.Tech — Computer Science & Engineering</div>
+          <div class="edu-uni">Galgotias University, Greater Noida</div>
+        </div>
+        <div class="exp-date">2021 – 2025</div>
+      </div>
+      <div class="edu-cw">DSA · DBMS · Operating Systems · Computer Networks · Machine Learning · System Design</div>
+    </div>
+  </section>
 
-⚡ **Fun fact:** I’m equally passionate about **tech innovation** and exploring the world of **finance & stocks**.  
+  <section>
+    <div class="sec-hd"><span class="sec-hd-label">Achievements</span><div class="sec-hd-line"></div></div>
+    <div class="ach-row">
+      <div class="ach-card"><i class="ti ti-trophy ach-icon"></i><div class="ach-text"><strong>LeetCode Top 15%</strong>300+ problems solved globally</div></div>
+      <div class="ach-card"><i class="ti ti-star ach-icon"></i><div class="ach-text"><strong>HackerRank 5★ Gold</strong>Problem solving certified</div></div>
+      <div class="ach-card"><i class="ti ti-rocket ach-icon"></i><div class="ach-text"><strong>NASA Space Apps 2022</strong>Selected for global hackathon</div></div>
+      <div class="ach-card"><i class="ti ti-award ach-icon"></i><div class="ach-text"><strong>Smart India Hackathon</strong>Advanced to college finals</div></div>
+    </div>
+  </section>
 
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/aditya-raj-570b511a4/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/aditya-raj-570b511a4/" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/https://leetcode.com/u/aditya121raj/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/aditya121raj/" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> 
-  <!-- Languages -->
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
-  </a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="40" height="40"/> 
-  </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="40" height="40"/> 
-  </a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> 
-  </a>
-  <a href="https://www.cplusplus.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> 
-  </a>
-  
-  <!-- MERN Stack -->
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> 
-  </a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> 
-  </a>
-  <a href="https://expressjs.com" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> 
-  </a>
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> 
-  </a>
-
-  <!-- Databases -->
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
-  </a>
-
-  <!-- Tools -->
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
-  </a>
-  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vs-code" width="40" height="40"/> 
-  </a>
-</p>
-
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aditya121raj&show_icons=true&locale=en&layout=compact" alt="aditya121raj" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aditya121raj&show_icons=true&locale=en" alt="aditya121raj" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aditya121raj&" alt="aditya121raj" /></p>
+</div>
+</body>
+</html>
