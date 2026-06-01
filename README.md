@@ -128,11 +128,9 @@ features = {
 
 <div align="center">
 
-![Aditya's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Aditya121raj&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=1D9E75&icon_color=1D9E75&count_private=true)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Aditya121raj&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=1D9E75&line=1D9E75&point=ffffff&area=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Aditya121raj&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=1D9E75)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Aditya121raj&theme=tokyonight&hide_border=true&background=0D1117&ring=1D9E75&fire=1D9E75&currStreakLabel=1D9E75)
+![GitHub Streak](https://streak-stats.demolab.com?user=Aditya121raj&theme=tokyonight&hide_border=true&background=0D1117&ring=1D9E75&fire=1D9E75&currStreakLabel=1D9E75&sideLabels=1D9E75)
 
 </div>
 
@@ -153,7 +151,7 @@ features = {
 <div align="center">
 
 > *If you've read this far — you're either a recruiter (hi 👋), a fellow dev (let's collab 🤝), or extremely bored (same 😄)*
-> 
+>
 > *Drop a ⭐ on a repo. It costs nothing and means everything.*
 
 [![Gmail](https://img.shields.io/badge/Gmail-adiraj1706%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adiraj1706@gmail.com)
@@ -161,4 +159,3 @@ features = {
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-1D9E75?style=for-the-badge&logo=vercel&logoColor=white)](https://adityaraj-portfolio-dev.vercel.app/)
 
 </div>
-
